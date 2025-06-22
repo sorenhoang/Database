@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CassandraDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43de7d665aba0b0fc6fb92c1d08c29f5a92efbd8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+492fbbab531f757ba8ce0db2224c471e1ee5790a")]
 [assembly: System.Reflection.AssemblyProductAttribute("CassandraDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CassandraDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
