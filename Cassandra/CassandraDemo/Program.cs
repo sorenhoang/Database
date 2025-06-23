@@ -31,8 +31,10 @@ namespace CassandraDemo
                     Console.WriteLine("\nSelect a use case to run:");
                     Console.WriteLine("1. IoT Sensor Data (Time Series)");
                     Console.WriteLine("2. Product Catalog");
-                    Console.WriteLine("3. Exit");
-                    Console.Write("Enter your choice (1-3): ");
+                    Console.WriteLine("3. User Sessions and Authentication");
+                    Console.WriteLine("4. Messaging System");
+                    Console.WriteLine("5. Exit");
+                    Console.Write("Enter your choice (1-6): ");
 
                     var choice = Console.ReadLine();
 
@@ -47,6 +49,14 @@ namespace CassandraDemo
                             break;
 
                         case "3":
+                            await RunUserSessionUseCaseAsync(context);
+                            break;
+
+                        case "4":
+                            await RunMessagingSystemUseCaseAsync(context);
+                            break;
+
+                        case "5":
                             Console.WriteLine("Exiting application...");
                             return;
 
@@ -100,6 +110,35 @@ namespace CassandraDemo
 
             // Run demonstration operations
             await useCase.DemonstrateProductOperationsAsync();
+        }
+
+        /// <summary>
+        /// Run the user session use case
+        /// </summary>
+        static async Task RunUserSessionUseCaseAsync(CassandraContext context)
+        {
+            Console.WriteLine("\n** User Session and Authentication Use Case **");
+
+            var useCase = new UserSessionUseCase(context);
+
+            // Create sample sessions
+            await useCase.CreateSampleSessionsAsync();
+
+            // Run demonstration operations
+            await useCase.DemonstrateSessionOperationsAsync();
+        }
+
+        /// <summary>
+        /// Run the messaging system use case
+        /// </summary>
+        static async Task RunMessagingSystemUseCaseAsync(CassandraContext context)
+        {
+            Console.WriteLine("\n** Messaging System Use Case **");
+
+            var useCase = new MessagingSystemUseCase(context);
+
+            // Run demonstration operations
+            await useCase.DemonstrateMessagingOperationsAsync();
         }
     }
 }

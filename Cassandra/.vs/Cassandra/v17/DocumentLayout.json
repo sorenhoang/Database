@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|solutionrelative:cassandrademo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|e:\\binhhd-learning\\database\\cassandra\\cassandrademo\\data\\cassandracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|solutionrelative:cassandrademo\\data\\cassandracontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|e:\\binhhd-learning\\database\\cassandra\\cassandrademo\\usecases\\iotsensorusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|solutionrelative:cassandrademo\\usecases\\iotsensorusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|e:\\binhhd-learning\\database\\cassandra\\cassandrademo\\data\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C569E344-F88E-35E8-3D6D-ED9D63CD98B6}|CassandraDemo\\CassandraDemo.csproj|solutionrelative:cassandrademo\\data\\messagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CassandraContext.cs",
+              "DocumentMoniker": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\Data\\CassandraContext.cs",
+              "RelativeDocumentMoniker": "CassandraDemo\\Data\\CassandraContext.cs",
+              "ToolTip": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\Data\\CassandraContext.cs",
+              "RelativeToolTip": "CassandraDemo\\Data\\CassandraContext.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:50:26.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageRepository.cs",
+              "DocumentMoniker": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\Data\\MessageRepository.cs",
+              "RelativeDocumentMoniker": "CassandraDemo\\Data\\MessageRepository.cs",
+              "ToolTip": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\Data\\MessageRepository.cs",
+              "RelativeToolTip": "CassandraDemo\\Data\\MessageRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T12:44:17.9Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,20 +62,20 @@
               "RelativeDocumentMoniker": "CassandraDemo\\Program.cs",
               "ToolTip": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\Program.cs",
               "RelativeToolTip": "CassandraDemo\\Program.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwBMAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T16:37:21.934Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IoTSensorUseCase.cs",
               "DocumentMoniker": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\UseCases\\IoTSensorUseCase.cs",
               "RelativeDocumentMoniker": "CassandraDemo\\UseCases\\IoTSensorUseCase.cs",
               "ToolTip": "E:\\BinhHD-Learning\\Database\\Cassandra\\CassandraDemo\\UseCases\\IoTSensorUseCase.cs",
               "RelativeToolTip": "CassandraDemo\\UseCases\\IoTSensorUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-22T16:37:20.497Z",
               "EditorCaption": ""
